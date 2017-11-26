@@ -1,1 +1,1 @@
-# Connecting-Raspberry-Pi-with-FIrebase-Database
+# Connecting-Raspberry-Pi-with-Firebase-Database
