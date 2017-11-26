@@ -11,11 +11,16 @@ The following project was developed to collect the humidity and the temperature 
 3.	wget https://bootstrap.pypa.io/get-pip.py
 4.	sudo python get-pip
 5.	sudo pip install pyrebase
+6. I also had to download some files for the DHT22 sensor from github: https://github.com/adafruit/Adafruit_Python_DHT
+
+##### If you are done with the previous steps, you are now ready to start writing the python script. Take a look at the following link for the pyrebase: https://github.com/thisbejim/Pyrebase.
 
 ```
+# This code should be used with every script that you will be using to connect to the Firebase database.
 import pyrebase
-
+from firebase import firebase
 config = {
+  # You can get all these info from the firebase website. It's associated with your account.
   "apiKey": "apiKey",
   "authDomain": "projectId.firebaseapp.com",
   "databaseURL": "https://databaseName.firebaseio.com",
@@ -23,4 +28,9 @@ config = {
 }
 
 firebase = pyrebase.initialize_app(config)
+.
+.
+.
+.
 ```
+ ##### Look at the Pyrebase https://github.com/thisbejim/Pyrebase to look at the functions and how to use them.
