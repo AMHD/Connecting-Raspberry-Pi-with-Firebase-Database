@@ -1,3 +1,5 @@
+# Author: Ahmed M. Hussain, All rights reserved 
+
 import pyrebase
 import sys
 import Adafruit_DHT
