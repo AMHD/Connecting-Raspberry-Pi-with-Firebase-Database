@@ -5,7 +5,6 @@ import sys
 import Adafruit_DHT
 import time
 
-from firebase import firebase
 config = {
   "apiKey": "AIzaSyD68dO5eqaIPqa4KBm9DE0kt5U-aee2ooA",
   "authDomain": "tempapp-a0c0e.firebaseapp.com",
