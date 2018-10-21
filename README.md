@@ -10,7 +10,7 @@ The following project was developed to collect the humidity and the temperature 
 2.	sudo apt-get install python-dev
 3.	wget https://bootstrap.pypa.io/get-pip.py
 4.	sudo python get-pip OR sudo apt-get install python-pip (new Raspian versions)
-5.	sudo pip install pyrebase
+5.	sudo pip install pyrebase #### Note that you may need to update your pyasn modules (pip install --upgrade pyasn1-modules)
 6. I also had to download some files for the DHT22 sensor from github: https://github.com/adafruit/Adafruit_Python_DHT
 
 ##### If you are done with the previous steps, you are now ready to start writing the python script. Take a look at the following link for the pyrebase: https://github.com/thisbejim/Pyrebase.
